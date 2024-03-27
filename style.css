@@ -69,6 +69,26 @@ body {
     border-bottom: 4px solid var(--verde);
 }
 
+.aba-conteudo-titulo-principal {
+    font-size: 28px;
+    text-align: center;
+}
+
+.aba-conteudo-titulo-secundario {
+    text-align: center;
+    color: var(--verde);
+    text-transform: uppercase;
+}
+
+.aba-conteudo.ativo{
+    display: block;
+}
+
+.aba-conteudo {
+    display: nome;
+}
+
+
 @media screen and (min-width: 768px) { 
     .botoes { 
         display: flex;
