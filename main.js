@@ -62,7 +62,7 @@ function calculaSituacao(tempoObjetivo) {
     horas %= 24;
 
     if (tempoFinal > 0) {
-        return " ";
+        return " Ainda há tempo ";
     } else {
         return "Prazo finalizado";
         
