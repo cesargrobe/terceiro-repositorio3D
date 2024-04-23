@@ -72,13 +72,13 @@ function calculaSituacao(tempoObjetivo) {
 
 function atualizaSituacao () {
     for (let i=0; i< situacao.length; i++) {
-        situacao[i]textContent = calculaTempo(tempos[i]);
+        situacao[i]textContent = calculaSituacao(tempos[i]);
     }
 }
 
 function atualizaCronometro() {
     for ( let i = 0; i < contadores.length; i++) {
-        contadores[i].textContent = calculaSituacao(tempos[i]);
+        contadores[i].textContent = calculaTempo(tempos[i]);
     }
 }
 
