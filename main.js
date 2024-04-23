@@ -24,7 +24,7 @@ const tempoObjetivo4 = new Date("2024-12-13T23:59:59");
 
 const tempos = [tempoObjetivo1, tempoObjetivo2, tempoObjetivo3, tempoObjetivo4]
 
-const situacao = document.querySelectorAll(".situacao");
+const situacoes = document.querySelectorAll(".situacao");
 
 function calculaTempo(tempoObjetivo) {
     let tempoAtual = new Date();
@@ -71,8 +71,8 @@ function calculaSituacao(tempoObjetivo) {
 }
 
 function atualizaSituacao () {
-    for (let i=0; i< situacao.length; i++) {
-        situacao[i].textContent = calculaSituacao(tempos[i]);
+    for (let i = 0; i < situacoes.length; i++) {
+        situacoes[i].textContent = calculaSituacao(tempos[i]);
     }
 }
 
