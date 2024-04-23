@@ -24,6 +24,8 @@ const tempoObjetivo4 = new Date("2024-12-13T23:59:59");
 
 const tempos = [tempoObjetivo1, tempoObjetivo2, tempoObjetivo3, tempoObjetivo4]
 
+const situacao = document.querySelectorAll(".situacao");
+
 function calculaTempo(tempoObjetivo) {
     let tempoAtual = new Date();
     let tempoFinal = tempoObjetivo - tempoAtual;
@@ -46,6 +48,11 @@ function calculaTempo(tempoObjetivo) {
     
 }
 
+function atualizaSituacao () {
+    for (let i=0; i< situacao.length; i++) {
+        situacao[i]textContent = calculaTempo(tempos[i]);
+    }
+}
 
 function atualizaCronometro() {
     for ( let i = 0; i < contadores.length; i++) {
