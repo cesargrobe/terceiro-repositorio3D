@@ -72,7 +72,7 @@ function calculaSituacao(tempoObjetivo) {
 
 function atualizaSituacao () {
     for (let i=0; i< situacao.length; i++) {
-        situacao[i]textContent = calculaSituacao(tempos[i]);
+        situacao[i].textContent = calculaSituacao(tempos[i]);
     }
 }
 
