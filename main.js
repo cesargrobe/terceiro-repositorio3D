@@ -88,4 +88,4 @@ function comecaCronometro() {
 }
 
 comecaCronometro();
-
+atualizaSituacao ();
