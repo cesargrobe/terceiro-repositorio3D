@@ -17,10 +17,10 @@ for (let i=0; i<botoes.length; i++) {
 
 
 const contadores = document.querySelectorAll(".contador");
-const tempoObjetivo1 = new Date("2024-04-30T23:59:59");
-const tempoObjetivo2 = new Date("2024-05-10T23:59:59");
-const tempoObjetivo3 = new Date("2024-06-15T23:59:59");
-const tempoObjetivo4 = new Date("2024-12-13T23:59:59");
+const tempoObjetivo1 = new Date("2026-07-30T23:59:59");
+const tempoObjetivo2 = new Date("2026-08-10T23:59:59");
+const tempoObjetivo3 = new Date("2026-09-15T23:59:59");
+const tempoObjetivo4 = new Date("2026-12-13T23:59:59");
 
 const tempos = [tempoObjetivo1, tempoObjetivo2, tempoObjetivo3, tempoObjetivo4]
 
